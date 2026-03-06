@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f6f9;
@@ -23,11 +26,14 @@ img {
   display: block;
   width: 100%;
   height: 200px;
+
   object-fit: cover;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
+
   padding: 0 20px;
 }
 .header {
@@ -44,6 +50,7 @@ img {
   padding: 0 20px;
   display: flex;
   align-items: center;
+
   justify-content: space-between;
   height: 64px;
 }
@@ -75,6 +82,7 @@ img {
   background-color: #e94560;
   transition: width 0.3s ease;
 }
+
 .nav-list a:hover {
   color: #fff;
 }
@@ -104,9 +112,12 @@ img {
   z-index: 1;
   max-width: 700px;
 }
+
+
 .banner-title {
   font-size: 3rem;
   font-weight: 800;
+
   color: #fff;
   margin-bottom: 20px;
   text-shadow: 0 2px 12px rgba(0,0,0,0.5);
@@ -141,6 +152,7 @@ img {
 }
 .btn-book {
   background-color: #e94560;
+
   color: #fff;
   width: 100%;
   margin-top: 10px;
@@ -160,6 +172,7 @@ img {
 .section-title {
   text-align: center;
   font-size: 2rem;
+
   font-weight: 700;
   color: #1a1a2e;
   margin-bottom: 48px;
@@ -174,11 +187,13 @@ img {
   border-radius: 2px;
   margin: 12px auto 0;
 }
+
 .cars-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
 }
+
 .car-card {
   background: #fff;
   border-radius: 12px;
@@ -191,6 +206,7 @@ img {
 .car-card:hover {
   transform: scale(1.03) translateY(-4px);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+
 }
 .car-img-wrap {
   overflow: hidden;
@@ -223,6 +239,8 @@ img {
   color: #666;
   flex: 1;
   margin-bottom: 12px;
+
+
 }
 .car-price {
   font-size: 0.95rem;
@@ -233,6 +251,7 @@ img {
 .car-price span {
   color: #e94560;
   font-weight: 700;
+
   font-size: 1.05rem;
 }
 .services-grid {
@@ -250,6 +269,7 @@ img {
 }
 .service-card:hover {
   transform: translateY(-6px);
+
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
 }
 .service-icon {
@@ -269,8 +289,10 @@ img {
 .footer {
   background-color: #1a1a2e;
   color: #aaa;
+
   padding: 56px 20px 0;
 }
+
 .footer-inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -286,6 +308,7 @@ img {
 .footer-brand p {
   font-size: 0.88rem;
 }
+
 .footer-contact h4,
 .footer-links h4 {
   color: #fff;
@@ -317,6 +340,7 @@ img {
 .footer-links a:hover {
   color: #e94560;
 }
+
 .footer-copy {
   text-align: center;
   padding: 20px 0;
@@ -335,10 +359,12 @@ img {
     gap: 10px;
     align-items: center;
   }
+
   .banner-title {
     font-size: 2rem;
   }
   .banner-text {
+
     font-size: 1rem;
   }
   .cars-grid {
@@ -346,6 +372,7 @@ img {
   }
   .services-grid {
     grid-template-columns: 1fr;
+
   }
   .footer-inner {
     grid-template-columns: 1fr;
@@ -353,10 +380,12 @@ img {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+    
   .cars-grid {
     grid-template-columns: repeat(2, 1fr);
   }
   .services-grid {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
